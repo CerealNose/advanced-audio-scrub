@@ -1,0 +1,24 @@
+# Advanced Audio Scrub - Full Requirements
+# Install with: pip install -r requirements_full.txt
+
+# Core dependencies
+numpy>=1.21.0
+sounddevice>=0.4.5
+soundfile>=0.11.0
+
+# Neural codec processing (optional but recommended)
+# Note: demucs is a large package (~500MB) and may take time to install
+demucs>=4.0.0
+
+# Development and building
+pyinstaller>=5.0
+
+# Additional dependencies (installed automatically with demucs)
+# Listed here for reference:
+# torch>=1.11.0
+# torchaudio>=0.11.0
+# einops>=0.6.0
+# julius>=0.2.7
+# openunmix>=1.2.0
+# lameenc>=1.2
+# diffq>=0.2.1

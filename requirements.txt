@@ -1,0 +1,7 @@
+sounddevice
+soundfile
+numpy
+# demucs.encodec/demucs-encodec is optional; installation varies by environment
+# demucs (or demucs-encodec) may be required for neural scrub step; install if you plan to use it.
+# PyInstaller recommended for packaging:
+pyinstaller
