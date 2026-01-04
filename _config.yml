@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Advanced Audio Scrub
+description: A professional audio processing tool using loopback recording and neural codec compression.
+show_downloads: true
+google_analytics:
